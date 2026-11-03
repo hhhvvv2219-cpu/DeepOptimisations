@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.deepoptimisations.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MobEntityAiMixin",
+    "LivingEntityMovementMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
