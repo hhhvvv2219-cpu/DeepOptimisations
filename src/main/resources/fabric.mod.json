@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "deepoptimisations",
+  "version": "${version}",
+  "name": "DeepOptimisations",
+  "description": "Distance-based entity AI and movement tick throttling for Minecraft 1.21.1 Fabric.",
+  "authors": ["DeepOptimisations"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.deepoptimisations.DeepOptimisations"
+    ]
+  },
+  "mixins": [
+    "deepoptimisations.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
